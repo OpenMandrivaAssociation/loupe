@@ -8,7 +8,7 @@ Source0:         https://download.gnome.org/sources/loupe/45/loupe-%{version}.ta
 Source2:        vendor.tar.xz
 Source3:        cargo_config
 
-BuildRequires:  appstream-glib
+BuildRequires:  appstream-util
 BuildRequires:  cargo
 BuildRequires:  meson itstool
 BuildRequires:  pkgconfig
