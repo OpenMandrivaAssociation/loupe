@@ -48,4 +48,3 @@ cp %{SOURCE3} .cargo/config
 %{_datadir}/icons/hicolor/scalable/apps/org.gnome.Loupe.svg
 %{_datadir}/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg
 %{_datadir}/metainfo/org.gnome.Loupe.metainfo.xml
-%{_datadir}/help/C/%{name}/
