@@ -19,6 +19,8 @@ BuildRequires:  pkgconfig(gweather4) >= 4.0.0
 BuildRequires:  pkgconfig(lcms2)
 BuildRequires:  pkgconfig(libadwaita-1) >= 1.3.99
 #BuildRequires:  pkgconfig(libheif) >= 1.14.2
+BuildRequires:  pkgconfig(libssh2)
+
 Requires:       glycin-loaders
 
 %description
