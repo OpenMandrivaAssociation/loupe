@@ -24,7 +24,7 @@ Requires:       glycin-loaders
 
 %prep
 %autosetup -p1 -a2
-mkdir .cargo
+#mkdir .cargo
 cp %{SOURCE3} .cargo/config
 
 %build
