@@ -40,6 +40,7 @@ cp %{SOURCE3} .cargo/config
 %files -f %{name}.lang
 %license COPYING.md
 %doc README.md
+%doc %{_datadir}/help/*/loupe/
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Loupe.desktop
 %{_datadir}/dbus-1/services/org.gnome.Loupe.service
