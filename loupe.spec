@@ -7,8 +7,8 @@ Summary:        A simple image viewer application
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/loupe
 Source0:        https://download.gnome.org/sources/loupe/45/loupe-%{version}.tar.xz
-Source2:        vendor.tar.xz
-Source3:        cargo_config
+#Source2:        vendor.tar.xz
+#Source3:        cargo_config
 
 BuildRequires:  appstream-util
 BuildRequires:  cargo
@@ -27,9 +27,10 @@ Requires:       glycin-loaders
 %{summary} written with GTK4 and Rust.
 
 %prep
-%autosetup -p1 -a2
+%autosetup -p1 
+#-a2
 #mkdir .cargo
-cp %{SOURCE3} .cargo/config
+#cp %{SOURCE3} .cargo/config
 
 %build
 %meson
