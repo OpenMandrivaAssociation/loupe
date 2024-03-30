@@ -53,3 +53,4 @@ Requires:       glycin-loaders
 %{_datadir}/icons/hicolor/scalable/apps/org.gnome.Loupe.svg
 %{_datadir}/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg
 %{_datadir}/metainfo/org.gnome.Loupe.metainfo.xml
+%{_datadir}/glib-2.0/schemas/org.gnome.Loupe.gschema.xml
