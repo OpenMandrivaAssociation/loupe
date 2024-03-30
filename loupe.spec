@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 
 Name:           loupe
-Version:        45.3
+Version:        46.0
 Release:        1
 Summary:        A simple image viewer application
 License:        GPL-3.0-or-later
