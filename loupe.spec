@@ -20,6 +20,7 @@ BuildRequires:  pkgconfig(lcms2)
 BuildRequires:  pkgconfig(libadwaita-1) >= 1.3.99
 #BuildRequires:  pkgconfig(libheif) >= 1.14.2
 BuildRequires:  pkgconfig(libssh2)
+BuildRequires:  pkgconfig(libseccomp)
 
 Requires:       glycin-loaders
 
