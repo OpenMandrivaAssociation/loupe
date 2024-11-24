@@ -1,8 +1,8 @@
 %define _empty_manifest_terminate_build 0
 
 Name:           loupe
-Version:        47.1
-Release:        2
+Version:        47.2
+Release:        1
 Summary:        A simple image viewer application
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/loupe
