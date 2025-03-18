@@ -50,7 +50,7 @@ Requires:       glycin-loaders
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Loupe.desktop
 %{_datadir}/dbus-1/services/org.gnome.Loupe.service
-%{_datadir}/icons/hicolor/scalable/apps/org.gnome.Loupe.Devel.svg
+#{_datadir}/icons/hicolor/scalable/apps/org.gnome.Loupe.Devel.svg
 %{_datadir}/icons/hicolor/scalable/apps/org.gnome.Loupe.svg
 %{_datadir}/icons/hicolor/symbolic/apps/org.gnome.Loupe-symbolic.svg
 %{_datadir}/metainfo/org.gnome.Loupe.metainfo.xml
