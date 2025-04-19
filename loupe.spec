@@ -12,6 +12,7 @@ Source1:        vendor.tar.xz
 
 BuildRequires:  appstream-util
 BuildRequires:  cargo
+BuildRequires:  rust-packaging
 BuildRequires:  meson itstool
 BuildRequires:  gettext
 BuildRequires:  pkgconfig
