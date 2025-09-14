@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 
 Name:           loupe
-Version:        48.1
+Version:        49.0
 Release:        1
 Summary:        A simple image viewer application
 License:        GPL-3.0-or-later
@@ -23,7 +23,7 @@ BuildRequires:  pkgconfig(libadwaita-1) >= 1.3.99
 #BuildRequires:  pkgconfig(libheif) >= 1.14.2
 BuildRequires:  pkgconfig(libssh2)
 BuildRequires:  pkgconfig(libseccomp)
-BuildRequires:  pkgconfig(glycin-1)
+BuildRequires:  pkgconfig(glycin-2)
 
 Requires:       glycin-loaders
 
