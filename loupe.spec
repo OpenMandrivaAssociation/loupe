@@ -10,11 +10,13 @@ Source0:        https://download.gnome.org/sources/loupe/45/loupe-%{version}.tar
 Source1:        vendor.tar.xz
 #Source3:        cargo_config
 
+BuildRequires:  appstream
 BuildRequires:  appstream-util
 BuildRequires:  cargo
 BuildRequires:  rust-packaging
 BuildRequires:  meson itstool
 BuildRequires:  gettext
+BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(gtk4) >= 4.10
 BuildRequires:  pkgconfig(gweather4) >= 4.0.0
