@@ -1,12 +1,14 @@
 %define _empty_manifest_terminate_build 0
 
+%define url_ver %(echo %{version}|cut -d. -f1,2)
+
 Name:           loupe
-Version:        50.0
+Version:        51.0
 Release:        1
 Summary:        A simple image viewer application
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/loupe
-Source0:        https://download.gnome.org/sources/loupe/45/loupe-%{version}.tar.xz
+Source0:        https://download.gnome.org/sources/loupe/%{url_ver}/loupe-%{version}.tar.xz
 Source1:        vendor.tar.xz
 #Source3:        cargo_config
 
