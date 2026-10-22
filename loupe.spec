@@ -4,7 +4,7 @@
 
 Name:           loupe
 Version:        51.0
-Release:        1
+Release:        2
 Summary:        A simple image viewer application
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/loupe
