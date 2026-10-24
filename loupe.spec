@@ -3,8 +3,8 @@
 %define url_ver %(echo %{version}|cut -d. -f1,2)
 
 Name:           loupe
-Version:        51.0
-Release:        2
+Version:        51.1
+Release:        1
 Summary:        A simple image viewer application
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/loupe
